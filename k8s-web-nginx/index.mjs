@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 })
 
 app.get("/nginx", async (req, res) => {
-    const url = 'https://www.nginx.com/'
+    const url = 'http://nginx'
     const response = await fetch(url)
     res.send(response.text())
 })
