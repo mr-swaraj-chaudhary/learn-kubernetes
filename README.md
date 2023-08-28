@@ -64,6 +64,10 @@
 ## Delete all resources in default namespace: 
 	- kubectl delete all --all
 
+## Automation of deployments and services: 
+	- kubectl apply -f deployment.yaml (create manifest resources)
+	- kubectl delete -f deployment.yaml (delete manifest resources)
+	
 ## Notes:
 	1. Docker enables separation of an application from underlying infrastructure. whereas,
 	   Kubernetes is a container orchestration tool that provides load balancing and simplies container management on multiple hosts.
