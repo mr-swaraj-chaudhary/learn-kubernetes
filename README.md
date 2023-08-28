@@ -3,6 +3,7 @@
 
 ## Image
 [Image for k8s-web-hello - Docker Hub](https://hub.docker.com/repository/docker/swarajkumar/k8s-web-hello/general)
+[Image for k8s-web-nginx - Docker Hub](https://hub.docker.com/repository/docker/swarajkumar/k8s-web-nginx/general)
 
 ## Problem Statement
 	1. Learn basic commands related to minikube and kubectl
